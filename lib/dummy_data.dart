@@ -22,7 +22,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c81dde440b643cf003",
       index: 0,
-      image: "http://placehold.it/32x32",
+      image: "assets/images/girl_1.jpeg",
       name: "Paige Brock",
       gender: "female",
       email: "paigebrock@eventix.com",
@@ -30,7 +30,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c8af7df47f4d2d276b",
       index: 1,
-      image: "http://placehold.it/32x32",
+      image: "assets/images/girl_2.jpg",
       name: "Sonia Gregory",
       gender: "female",
       email: "soniagregory@eventix.com",
@@ -38,7 +38,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c817b6dc2ee50ba336",
       index: 2,
-      image: "http://placehold.it/32x32",
+      image: "assets/images/girl_3.jpg",
       name: "Rosalinda Bradley",
       gender: "female",
       email: "rosalindabradley@eventix.com",
@@ -46,7 +46,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c852993d9052f457b6",
       index: 3,
-      image: "http://placehold.it/32x32",
+      image: "assets/images/profile_1.jpg",
       name: "Snow Cross",
       gender: "male",
       email: "snowcross@eventix.com",
@@ -54,7 +54,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c823a6e7fe7276fdac",
       index: 4,
-      image: "http://placehold.it/32x32",
+      image: "assets/images/profile_2.jpg",
       name: "Osborne Dixon",
       gender: "male",
       email: "osbornedixon@eventix.com",
@@ -62,7 +62,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c8eb090858d07ac45c",
       index: 5,
-      image: "http://placehold.it/32x32",
+      image: "assets/images/profile_1.jpg",
       name: "Moss Horne",
       gender: "male",
       email: "mosshorne@eventix.com",
@@ -70,7 +70,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c8062579dddf9c01ba",
       index: 6,
-      image: "http://placehold.it/32x32",
+      image: "assets/images/profile_1.jpg",
       name: "Shelton Maynard",
       gender: "male",
       email: "sheltonmaynard@eventix.com",
@@ -78,7 +78,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c820860809c4fc504e",
       index: 7,
-      image: "http://placehold.it/32x32",
+      image: "assets/images/girl_4.jpg",
       name: "Lesa Benjamin",
       gender: "female",
       email: "lesabenjamin@eventix.com",
@@ -86,7 +86,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c842d2d5fc941f1ddc",
       index: 8,
-      image: "http://placehold.it/32x32",
+      image: "assets/images/profile_1.jpg",
       name: "Barnes Porter",
       gender: "male",
       email: "barnesporter@eventix.com",
@@ -94,7 +94,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c830e3ae12467c38e1",
       index: 9,
-      image: "http://placehold.it/32x32",
+      image: "assets/images/girl_5.jpg",
       name: "Freida Marquez",
       gender: "female",
       email: "freidamarquez@eventix.com",
@@ -102,7 +102,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c8c8881fb0267543b3",
       index: 10,
-      image: "http://placehold.it/32x32",
+      image: "assets/images/profile_1.jpg",
       name: "Byers Howell",
       gender: "male",
       email: "byershowell@eventix.com",
@@ -110,7 +110,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c8b12aa00452e2d0a3",
       index: 11,
-      image: "http://placehold.it/32x32",
+      image: "assets/images/profile_1.jpg",
       name: "Monroe Hancock",
       gender: "male",
       email: "monroehancock@eventix.com",
@@ -118,7 +118,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c8116d4556fc00d745",
       index: 12,
-      image: "http://placehold.it/32x32",
+      image: "assets/images/profile_1.jpg",
       name: "Cannon Osborne",
       gender: "male",
       email: "cannonosborne@eventix.com",
@@ -126,7 +126,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c8ce245f453b771760",
       index: 13,
-      image: "http://placehold.it/32x32",
+      image: "assets/images/girl_1.jpeg",
       name: "Terra Graves",
       gender: "female",
       email: "terragraves@eventix.com",
@@ -134,7 +134,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c8345dc97f8268d5ee",
       index: 14,
-      image: "http://placehold.it/32x32",
+      image: "assets/images/profile_1.jpg",
       name: "Pitts Oneal",
       gender: "male",
       email: "pittsoneal@eventix.com",
@@ -142,7 +142,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c85c9a075a065c04e2",
       index: 15,
-      image: "http://placehold.it/32x32",
+      image: "assets/images/girl_2.jpg",
       name: "Nelda Rush",
       gender: "female",
       email: "neldarush@eventix.com",
@@ -150,7 +150,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c884f6e0b86e7a17e4",
       index: 16,
-      image: "http://placehold.it/32x32",
+      image: "assets/images/profile_1.jpg",
       name: "Mccarthy Harper",
       gender: "male",
       email: "mccarthyharper@eventix.com",
@@ -158,7 +158,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c8493bd5ea1b8f2078",
       index: 17,
-      image: "http://placehold.it/32x32",
+      image: "assets/images/profile_1.jpg",
       name: "Kennedy Farley",
       gender: "male",
       email: "kennedyfarley@eventix.com",
@@ -166,7 +166,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c8ed3c1dca6bb3a146",
       index: 18,
-      image: "http://placehold.it/32x32",
+      image: "assets/images/girl_3.jpg",
       name: "Louisa Nicholson",
       gender: "female",
       email: "louisanicholson@eventix.com",
@@ -174,7 +174,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c80653358e30d42ee9",
       index: 19,
-      image: "http://placehold.it/32x32",
+      image: "assets/images/profile_1.jpg",
       name: "Saunders Myers",
       gender: "male",
       email: "saundersmyers@eventix.com",
@@ -182,7 +182,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c8b5d12202e7ce04c2",
       index: 20,
-      image: "http://placehold.it/32x32",
+      image: "assets/images/profile_1.jpg",
       name: "Whitaker Macdonald",
       gender: "male",
       email: "whitakermacdonald@eventix.com",
@@ -190,7 +190,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c8ed56d3c2d3759d0d",
       index: 21,
-      image: "http://placehold.it/32x32",
+      image: "assets/images/girl_4.jpg",
       name: "Justine Steele",
       gender: "female",
       email: "justinesteele@eventix.com",
@@ -198,7 +198,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c8f5066f28cb32a56f",
       index: 22,
-      image: "http://placehold.it/32x32",
+      image: "assets/images/girl_5.jpg",
       name: "Shauna Hutchinson",
       gender: "female",
       email: "shaunahutchinson@eventix.com",
@@ -206,7 +206,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c8369b9a3c02a2b62f",
       index: 23,
-      image: "http://placehold.it/32x32",
+      image: "assets/images/profile_1.jpg",
       name: "Baxter Shaffer",
       gender: "male",
       email: "baxtershaffer@eventix.com",
@@ -214,7 +214,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c830f434dd13f358e6",
       index: 24,
-      image: "http://placehold.it/32x32",
+      image: "assets/images/girl_1.jpeg",
       name: "Sherri Carter",
       gender: "female",
       email: "sherricarter@eventix.com",
@@ -222,7 +222,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c83f4539cf3dd23d18",
       index: 25,
-      image: "http://placehold.it/32x32",
+      image: "assets/images/profile_1.jpg",
       name: "Harris Richards",
       gender: "male",
       email: "harrisrichards@eventix.com",
@@ -230,7 +230,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c8f8114ea40086e833",
       index: 26,
-      image: "http://placehold.it/32x32",
+      image: "assets/images/profile_1.jpg",
       name: "Huffman Curtis",
       gender: "male",
       email: "huffmancurtis@eventix.com",
@@ -238,7 +238,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c84856fec23497c2ed",
       index: 27,
-      image: "http://placehold.it/32x32",
+      image: "assets/images/profile_1.jpg",
       name: "Alvarez Horn",
       gender: "male",
       email: "alvarezhorn@eventix.com",
@@ -246,7 +246,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c8b16ee46c0a02bf58",
       index: 28,
-      image: "http://placehold.it/32x32",
+      image: "assets/images/profile_1.jpg",
       name: "Puckett Wilson",
       gender: "male",
       email: "puckettwilson@eventix.com",
@@ -254,7 +254,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c8960f6dead57072b5",
       index: 29,
-      image: "http://placehold.it/32x32",
+      image: "assets/images/girl_2.jpg",
       name: "Blanche Melton",
       gender: "female",
       email: "blanchemelton@eventix.com",
@@ -262,7 +262,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c85bbe376f0fda70b2",
       index: 30,
-      image: "http://placehold.it/32x32",
+      image: "assets/images/girl_3.jpg",
       name: "Stella Wise",
       gender: "female",
       email: "stellawise@eventix.com",
@@ -270,7 +270,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c8d477a77c18960a20",
       index: 31,
-      image: "http://placehold.it/32x32",
+      image: "assets/images/girl_4.jpg",
       name: "Brandie Fitzpatrick",
       gender: "female",
       email: "brandiefitzpatrick@eventix.com",
@@ -278,7 +278,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c8b4af5f814f5bff72",
       index: 32,
-      image: "http://placehold.it/32x32",
+      image: "assets/images/girl_5.jpg",
       name: "Angelia Briggs",
       gender: "female",
       email: "angeliabriggs@eventix.com",
@@ -286,7 +286,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c850810484beea962a",
       index: 33,
-      image: "http://placehold.it/32x32",
+      image: "assets/images/girl_1.jpeg",
       name: "Melanie Scott",
       gender: "female",
       email: "melaniescott@eventix.com",
@@ -294,7 +294,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c833704026328c669d",
       index: 34,
-      image: "http://placehold.it/32x32",
+      image: "assets/images/profile_1.jpg",
       name: "Gilbert Cox",
       gender: "male",
       email: "gilbertcox@eventix.com",
@@ -302,7 +302,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c8651d345ad3d698bd",
       index: 35,
-      image: "http://placehold.it/32x32",
+      image: "assets/images/profile_1.jpg",
       name: "Suarez Ferrell",
       gender: "male",
       email: "suarezferrell@eventix.com",
@@ -310,7 +310,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c811f75146629d04e3",
       index: 36,
-      image: "http://placehold.it/32x32",
+      image: "assets/images/profile_1.jpg",
       name: "Clayton Richmond",
       gender: "male",
       email: "claytonrichmond@eventix.com",
@@ -318,7 +318,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c833dcc1ebecc9bead",
       index: 37,
-      image: "http://placehold.it/32x32",
+      image: "assets/images/profile_1.jpg",
       name: "Huber Fisher",
       gender: "male",
       email: "huberfisher@eventix.com",
@@ -326,7 +326,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c8476e3985c024b014",
       index: 38,
-      image: "http://placehold.it/32x32",
+      image: "assets/images/girl_2.jpg",
       name: "Jacqueline Combs",
       gender: "female",
       email: "jacquelinecombs@eventix.com",
@@ -334,7 +334,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c834eaef599297b72b",
       index: 39,
-      image: "http://placehold.it/32x32",
+      image: "assets/images/girl_3.jpg",
       name: "Sandy Dean",
       gender: "female",
       email: "sandydean@eventix.com",
@@ -342,7 +342,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c8b8473a6190023c6e",
       index: 40,
-      image: "http://placehold.it/32x32",
+      image: "assets/images/girl_4.jpg",
       name: "Norma Navarro",
       gender: "female",
       email: "normanavarro@eventix.com",
@@ -350,7 +350,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c8b13c746e1a0325d7",
       index: 41,
-      image: "http://placehold.it/32x32",
+      image: "assets/images/profile_1.jpg",
       name: "Bowers Schwartz",
       gender: "male",
       email: "bowersschwartz@eventix.com",
@@ -358,7 +358,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c8b9d247c0b45009bc",
       index: 42,
-      image: "http://placehold.it/32x32",
+      image: "assets/images/profile_1.jpg",
       name: "Holloway Hahn",
       gender: "male",
       email: "hollowayhahn@eventix.com",
@@ -366,7 +366,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c87cbe4fc5891b54f7",
       index: 43,
-      image: "http://placehold.it/32x32",
+      image: "assets/images/girl_5.jpg",
       name: "Lidia Raymond",
       gender: "female",
       email: "lidiaraymond@eventix.com",
@@ -374,7 +374,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c83e01c133d11e3d0c",
       index: 44,
-      image: "http://placehold.it/32x32",
+      image: "assets/images/profile_1.jpg",
       name: "Mills Munoz",
       gender: "male",
       email: "millsmunoz@eventix.com",
@@ -382,7 +382,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c852faf00cbb2e5820",
       index: 45,
-      image: "http://placehold.it/32x32",
+      image: "assets/images/profile_1.jpg",
       name: "Compton Alford",
       gender: "male",
       email: "comptonalford@eventix.com",
@@ -390,7 +390,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c87e57966f4a4f1211",
       index: 46,
-      image: "http://placehold.it/32x32",
+      image: "assets/images/profile_1.jpg",
       name: "Alexander Craft",
       gender: "male",
       email: "alexandercraft@eventix.com",
@@ -398,7 +398,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c8be4069f739b90484",
       index: 47,
-      image: "http://placehold.it/32x32",
+      image: "assets/images/girl_1.jpeg",
       name: "Rosalyn Weeks",
       gender: "female",
       email: "rosalynweeks@eventix.com",
@@ -406,7 +406,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c8c7dce5bdea9c3290",
       index: 48,
-      image: "http://placehold.it/32x32",
+      image: "assets/images/profile_1.jpg",
       name: "Hawkins Drake",
       gender: "male",
       email: "hawkinsdrake@eventix.com",
@@ -414,7 +414,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c85796b52d2fb1f905",
       index: 49,
-      image: "http://placehold.it/32x32",
+      image: "assets/images/profile_1.jpg",
       name: "Tyler Larsen",
       gender: "male",
       email: "tylerlarsen@eventix.com",

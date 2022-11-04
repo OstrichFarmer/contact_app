@@ -1,3 +1,4 @@
+import 'package:contact_app/dummy_data.dart';
 import 'package:flutter/material.dart';
 
 class ContactScreen extends StatelessWidget {
@@ -27,7 +28,29 @@ class ContactScreen extends StatelessWidget {
                     prefixIcon: Icon(Icons.search),
                     hintText: 'Search'),
               ),
-            )
+            ),
+            const SizedBox(
+              height: 10,
+            ),
+            Expanded(
+                child: ListView.builder(
+                    itemCount: contactDetails.length,
+                    itemBuilder: (context, index) {
+                      return Card(
+                        elevation: 1,
+                        shape: const RoundedRectangleBorder(
+                            side: BorderSide(color: Colors.white, width: 1),
+                            borderRadius:
+                                BorderRadius.all(Radius.circular(10))),
+                        child: Container(
+                          padding: const EdgeInsets.all(10),
+                          margin: const EdgeInsets.all(10),
+                          child: Row(
+                            children: [CircleAvatar()],
+                          ),
+                        ),
+                      );
+                    }))
           ],
         ),
       ),
