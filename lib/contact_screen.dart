@@ -1,9 +1,14 @@
 import 'package:contact_app/dummy_data.dart';
 import 'package:flutter/material.dart';
 
-class ContactScreen extends StatelessWidget {
-  const ContactScreen({Key? key}) : super(key: key);
+class ContactScreen extends StatefulWidget {
+  ContactScreen({Key? key}) : super(key: key);
 
+  @override
+  State<ContactScreen> createState() => _ContactScreenState();
+}
+
+class _ContactScreenState extends State<ContactScreen> {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
@@ -43,10 +48,16 @@ class ContactScreen extends StatelessWidget {
                             borderRadius:
                                 BorderRadius.all(Radius.circular(10))),
                         child: Container(
-                          padding: const EdgeInsets.all(10),
-                          margin: const EdgeInsets.all(10),
+                          padding: const EdgeInsets.all(5),
+                          margin: const EdgeInsets.all(8),
                           child: Row(
-                            children: [CircleAvatar()],
+                            children: [
+                              CircleAvatar(
+                                radius: 25,
+                                backgroundImage:
+                                    AssetImage(contactDetails[index].image),
+                              )
+                            ],
                           ),
                         ),
                       );

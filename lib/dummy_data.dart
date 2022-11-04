@@ -18,7 +18,7 @@ class User {
   });
 }
 
-List<Object> contactDetails = const [
+List<User> contactDetails = const [
   User(
       id: "6364a0c81dde440b643cf003",
       index: 0,
@@ -62,7 +62,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c8eb090858d07ac45c",
       index: 5,
-      image: "assets/images/profile_1.jpg",
+      image: "assets/images/profile_3.jpg",
       name: "Moss Horne",
       gender: "male",
       email: "mosshorne@eventix.com",
@@ -70,7 +70,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c8062579dddf9c01ba",
       index: 6,
-      image: "assets/images/profile_1.jpg",
+      image: "assets/images/profile_4.jpeg",
       name: "Shelton Maynard",
       gender: "male",
       email: "sheltonmaynard@eventix.com",
@@ -78,7 +78,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c820860809c4fc504e",
       index: 7,
-      image: "assets/images/girl_4.jpg",
+      image: "assets/images/girl_4.webp",
       name: "Lesa Benjamin",
       gender: "female",
       email: "lesabenjamin@eventix.com",
@@ -86,7 +86,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c842d2d5fc941f1ddc",
       index: 8,
-      image: "assets/images/profile_1.jpg",
+      image: "assets/images/profile_5.jpeg",
       name: "Barnes Porter",
       gender: "male",
       email: "barnesporter@eventix.com",
@@ -110,7 +110,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c8b12aa00452e2d0a3",
       index: 11,
-      image: "assets/images/profile_1.jpg",
+      image: "assets/images/profile_2.jpg",
       name: "Monroe Hancock",
       gender: "male",
       email: "monroehancock@eventix.com",
@@ -118,7 +118,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c8116d4556fc00d745",
       index: 12,
-      image: "assets/images/profile_1.jpg",
+      image: "assets/images/profile_3.jpg",
       name: "Cannon Osborne",
       gender: "male",
       email: "cannonosborne@eventix.com",
@@ -134,7 +134,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c8345dc97f8268d5ee",
       index: 14,
-      image: "assets/images/profile_1.jpg",
+      image: "assets/images/profile_4.jpeg",
       name: "Pitts Oneal",
       gender: "male",
       email: "pittsoneal@eventix.com",
@@ -150,7 +150,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c884f6e0b86e7a17e4",
       index: 16,
-      image: "assets/images/profile_1.jpg",
+      image: "assets/images/profile_5.jpeg",
       name: "Mccarthy Harper",
       gender: "male",
       email: "mccarthyharper@eventix.com",
@@ -174,7 +174,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c80653358e30d42ee9",
       index: 19,
-      image: "assets/images/profile_1.jpg",
+      image: "assets/images/profile_2.jpg",
       name: "Saunders Myers",
       gender: "male",
       email: "saundersmyers@eventix.com",
@@ -182,7 +182,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c8b5d12202e7ce04c2",
       index: 20,
-      image: "assets/images/profile_1.jpg",
+      image: "assets/images/profile_3.jpg",
       name: "Whitaker Macdonald",
       gender: "male",
       email: "whitakermacdonald@eventix.com",
@@ -190,7 +190,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c8ed56d3c2d3759d0d",
       index: 21,
-      image: "assets/images/girl_4.jpg",
+      image: "assets/images/girl_4.webp",
       name: "Justine Steele",
       gender: "female",
       email: "justinesteele@eventix.com",
@@ -206,7 +206,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c8369b9a3c02a2b62f",
       index: 23,
-      image: "assets/images/profile_1.jpg",
+      image: "assets/images/profile_4.jpeg",
       name: "Baxter Shaffer",
       gender: "male",
       email: "baxtershaffer@eventix.com",
@@ -222,7 +222,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c83f4539cf3dd23d18",
       index: 25,
-      image: "assets/images/profile_1.jpg",
+      image: "assets/images/profile_5.jpeg",
       name: "Harris Richards",
       gender: "male",
       email: "harrisrichards@eventix.com",
@@ -238,7 +238,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c84856fec23497c2ed",
       index: 27,
-      image: "assets/images/profile_1.jpg",
+      image: "assets/images/profile_2.jpg",
       name: "Alvarez Horn",
       gender: "male",
       email: "alvarezhorn@eventix.com",
@@ -246,7 +246,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c8b16ee46c0a02bf58",
       index: 28,
-      image: "assets/images/profile_1.jpg",
+      image: "assets/images/profile_3.jpg",
       name: "Puckett Wilson",
       gender: "male",
       email: "puckettwilson@eventix.com",
@@ -270,7 +270,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c8d477a77c18960a20",
       index: 31,
-      image: "assets/images/girl_4.jpg",
+      image: "assets/images/girl_4.webp",
       name: "Brandie Fitzpatrick",
       gender: "female",
       email: "brandiefitzpatrick@eventix.com",
@@ -294,7 +294,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c833704026328c669d",
       index: 34,
-      image: "assets/images/profile_1.jpg",
+      image: "assets/images/profile_4.jpeg",
       name: "Gilbert Cox",
       gender: "male",
       email: "gilbertcox@eventix.com",
@@ -302,7 +302,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c8651d345ad3d698bd",
       index: 35,
-      image: "assets/images/profile_1.jpg",
+      image: "assets/images/profile_5.jpeg",
       name: "Suarez Ferrell",
       gender: "male",
       email: "suarezferrell@eventix.com",
@@ -318,7 +318,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c833dcc1ebecc9bead",
       index: 37,
-      image: "assets/images/profile_1.jpg",
+      image: "assets/images/profile_2.jpg",
       name: "Huber Fisher",
       gender: "male",
       email: "huberfisher@eventix.com",
@@ -342,7 +342,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c8b8473a6190023c6e",
       index: 40,
-      image: "assets/images/girl_4.jpg",
+      image: "assets/images/girl_4.webp",
       name: "Norma Navarro",
       gender: "female",
       email: "normanavarro@eventix.com",
@@ -350,7 +350,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c8b13c746e1a0325d7",
       index: 41,
-      image: "assets/images/profile_1.jpg",
+      image: "assets/images/profile_3.jpg",
       name: "Bowers Schwartz",
       gender: "male",
       email: "bowersschwartz@eventix.com",
@@ -358,7 +358,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c8b9d247c0b45009bc",
       index: 42,
-      image: "assets/images/profile_1.jpg",
+      image: "assets/images/profile_4.jpeg",
       name: "Holloway Hahn",
       gender: "male",
       email: "hollowayhahn@eventix.com",
@@ -374,7 +374,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c83e01c133d11e3d0c",
       index: 44,
-      image: "assets/images/profile_1.jpg",
+      image: "assets/images/profile_5.jpeg",
       name: "Mills Munoz",
       gender: "male",
       email: "millsmunoz@eventix.com",
@@ -390,7 +390,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c87e57966f4a4f1211",
       index: 46,
-      image: "assets/images/profile_1.jpg",
+      image: "assets/images/profile_2.jpg",
       name: "Alexander Craft",
       gender: "male",
       email: "alexandercraft@eventix.com",
@@ -406,7 +406,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c8c7dce5bdea9c3290",
       index: 48,
-      image: "assets/images/profile_1.jpg",
+      image: "assets/images/profile_3.jpg",
       name: "Hawkins Drake",
       gender: "male",
       email: "hawkinsdrake@eventix.com",
@@ -414,7 +414,7 @@ List<Object> contactDetails = const [
   User(
       id: "6364a0c85796b52d2fb1f905",
       index: 49,
-      image: "assets/images/profile_1.jpg",
+      image: "assets/images/profile_4.jpeg",
       name: "Tyler Larsen",
       gender: "male",
       email: "tylerlarsen@eventix.com",
