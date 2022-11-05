@@ -1,10 +1,13 @@
 import 'package:contact_app/contact_detail.dart';
 import 'package:contact_app/dummy_data.dart';
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class ContactScreen extends StatefulWidget {
-  const ContactScreen({Key? key}) : super(key: key);
+  const ContactScreen({
+    Key? key,
+  }) : super(key: key);
 
   @override
   State<ContactScreen> createState() => _ContactScreenState();
@@ -34,6 +37,12 @@ class _ContactScreenState extends State<ContactScreen> {
       onTap: (() => FocusScope.of(context).unfocus()),
       child: Scaffold(
         appBar: AppBar(
+          actions: const [
+            Icon(FontAwesomeIcons.user),
+            SizedBox(
+              width: 15,
+            )
+          ],
           title: const Text('Contacts'),
           centerTitle: true,
         ),
@@ -85,9 +94,9 @@ class _ContactScreenState extends State<ContactScreen> {
                                 ),
                                 Text(
                                   contactDetails[index].name,
-                                  style: GoogleFonts.aclonica(
+                                  style: GoogleFonts.montserrat(
                                     fontSize: 18,
-                                    fontWeight: FontWeight.w500,
+                                    fontWeight: FontWeight.w600,
                                   ),
                                 ),
                               ],

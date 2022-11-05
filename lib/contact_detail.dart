@@ -22,7 +22,7 @@ class ContactDetailScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: const Text('Details'),
+          title: Text(name),
           centerTitle: true,
         ),
         body: SingleChildScrollView(
@@ -124,14 +124,14 @@ class ContactDetailScreen extends StatelessWidget {
                                     fontSize: 16, fontWeight: FontWeight.w400),
                               ),
                               Text(
-                                '9:58am',
+                                '11:38am',
                                 style: TextStyle(
                                     color: Colors.grey,
                                     fontSize: 14,
                                     fontWeight: FontWeight.bold),
                               ),
                               Text(
-                                '5',
+                                '14',
                                 style: TextStyle(
                                     fontSize: 15,
                                     color: Colors.black,
@@ -159,14 +159,14 @@ class ContactDetailScreen extends StatelessWidget {
                                     fontSize: 16, fontWeight: FontWeight.w400),
                               ),
                               Text(
-                                '11:48am',
+                                '4:08am',
                                 style: TextStyle(
                                     color: Colors.grey,
                                     fontSize: 14,
                                     fontWeight: FontWeight.bold),
                               ),
                               Text(
-                                '2',
+                                '4',
                                 style: TextStyle(
                                     fontSize: 15,
                                     color: Colors.black,
@@ -178,25 +178,42 @@ class ContactDetailScreen extends StatelessWidget {
                       )
                     ],
                   ),
-                  // const SizedBox(
-                  //   height: 30,
-                  // ),
-                  // Text(
-                  //   'Bio',
-                  //   style: GoogleFonts.aclonica(fontSize: 20),
-                  // ),
-                  // const Card(
-                  //   elevation: 5,
-                  //   shape: RoundedRectangleBorder(
-                  //     borderRadius: BorderRadius.all(
-                  //       Radius.circular(10),
-                  //     ),
-                  //   ),
-                  //   child: SizedBox(
-                  //     height: 100,
-                  //     width: double.infinity,
-                  //   ),
-                  // )
+                  const SizedBox(
+                    height: 30,
+                  ),
+                  Text(
+                    'Bio',
+                    style: GoogleFonts.aclonica(fontSize: 20),
+                  ),
+                  Card(
+                    elevation: 5,
+                    shape: const RoundedRectangleBorder(
+                      borderRadius: BorderRadius.all(
+                        Radius.circular(10),
+                      ),
+                    ),
+                    child: SizedBox(
+                      height: 100,
+                      width: double.infinity,
+                      child: Padding(
+                        padding: const EdgeInsets.all(15.0),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              '$name is a staff of Ranona Nigeria limited ',
+                              style: const TextStyle(
+                                  fontSize: 18, fontWeight: FontWeight.w400),
+                            ),
+                            const SizedBox(
+                              height: 10,
+                            ),
+                            Text('Email: $email')
+                          ],
+                        ),
+                      ),
+                    ),
+                  )
                 ],
               )),
         ));

@@ -1,4 +1,5 @@
 import 'package:contact_app/contact_screen.dart';
+import 'package:contact_app/dummy_data.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -6,7 +7,8 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+  const MyApp({Key? key, }) : super(key: key);
+ 
 
   @override
   Widget build(BuildContext context) {
