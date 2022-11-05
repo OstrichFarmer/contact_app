@@ -3,7 +3,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class ContactDetailScreen extends StatelessWidget {
-  const ContactDetailScreen(
+  ContactDetailScreen(
       {required this.id,
       required this.name,
       required this.image,
@@ -20,6 +20,7 @@ class ContactDetailScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    double width = MediaQuery.of(context).size.width;
     return Scaffold(
         appBar: AppBar(
           title: Text(name),
@@ -113,7 +114,7 @@ class ContactDetailScreen extends StatelessWidget {
                                 BorderRadius.all(Radius.circular(10))),
                         child: SizedBox(
                           height: 200,
-                          width: 165,
+                          width: width * 0.4,
                           child: Column(
                             mainAxisAlignment: MainAxisAlignment.spaceAround,
                             children: const [
@@ -148,7 +149,7 @@ class ContactDetailScreen extends StatelessWidget {
                                 BorderRadius.all(Radius.circular(10))),
                         child: SizedBox(
                           height: 200,
-                          width: 165,
+                          width: width * 0.4,
                           child: Column(
                             mainAxisAlignment: MainAxisAlignment.spaceAround,
                             children: const [
